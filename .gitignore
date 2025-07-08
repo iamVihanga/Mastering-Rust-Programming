@@ -1,0 +1,22 @@
+# Generated files
+target/
+**/target/
+
+# Cargo lock files (depends on project type)
+Cargo.lock
+**/Cargo.lock
+
+# Additional Rust-specific ignores
+**/*.rs.bk
+**/debug/
+**/release/
+
+# IDE files
+**/.vscode/
+**/.idea/
+**/*.swp
+**/*.swo
+
+# OS files
+**/.DS_Store
+**/Thumbs.db
